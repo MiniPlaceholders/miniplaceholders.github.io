@@ -34,11 +34,13 @@ This tag inserts a string directly into the MiniMessage parse, allowing it to be
 return Tag.preProcessParsed("some content");
 ```
 
-#### Desired Usage
+:::note[Recommended Usage]
 
 ```java
 String string = "<expansion_argumentprocessing_placeholder:<expansion_preprocessparsed_placeholder>>";
 ```
+
+:::
 
 ### SelfClosingInserting
 
