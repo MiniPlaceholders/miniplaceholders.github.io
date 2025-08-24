@@ -1,5 +1,6 @@
 ---
-sidebar_label: 'MiniPlaceholders Compatible Projects'
+title: Compatible Projects
+sidebar_label: 'Compatible Projects'
 sidebar_position: 4
 ---
 

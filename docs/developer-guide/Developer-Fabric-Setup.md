@@ -1,4 +1,5 @@
 ---
+title: Mod Development
 sidebar_label: 'Mod Development'
 sidebar_position: 6
 ---

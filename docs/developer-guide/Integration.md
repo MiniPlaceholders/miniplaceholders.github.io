@@ -3,9 +3,11 @@ sidebar_label: 'Project Integration'
 sidebar_position: 3
 ---
 
+This guide will teach you how to use the MiniPlaceholders API in your plugins or mods to parse placeholders from other projects.
+
 ## Obtaining Placeholders
 
-You can get the required plugin placeholders whenever you want, from the methods located in the main `MiniPlaceholders` class
+You can get the required plugin/mod placeholders whenever you want, from the methods located in the main `MiniPlaceholders` class
 
 ### Global
 
@@ -15,7 +17,7 @@ TagResolver resolver = MiniPlaceholders.globalPlaceholders();
 Component parsedMessage = MiniMessage.miniMessage().deserialize("Online Players: <proxy_online_players>", resolver);
 ```
 
-::: note
+:::note
 
 Starting with MiniPlaceholders v3, the returned TagResolvers do not depend on an Audience or a RelationalAudience. This was done to modernize the API, improve placeholder processing performance, and avoid potential issues when caching TagResolvers.
 

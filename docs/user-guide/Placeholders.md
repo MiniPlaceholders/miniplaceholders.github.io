@@ -104,14 +104,14 @@ MiniPlaceholders v3 was recently released, and several of the expansions shown h
 :::note[Built-in expansion]
 :::
 
-[Wiki](https://github.com/4drian3d/AuthmeVelocity)
-
 ```
 <authme_is_logged>
 <authme_is_player_logger:[player name]>
 ```
 
-## [AFKPlus](https://github.com/NotAlexNoyle/MiniPlaceholders-AFKPlus)
+## [AFKPlus](https://www.spigotmc.org/resources/afk.35065/)
+
+[Expansion Download](https://github.com/NotAlexNoyle/MiniPlaceholders-AFKPlus)
 
 ```
 <afkplus_status>
@@ -172,18 +172,39 @@ MiniPlaceholders v3 was recently released, and several of the expansions shown h
 <chatregulator_infractions_count:[infraction type]>
 ```
 
-## Chunky
+## [Chunky](https://modrinth.com/plugin/chunky)
 
-[Chunky Download](https://modrinth.com/plugin/chunky)
+[Expansion Download](https://github.com/MiniPlaceholders/Chunky-Expansion)
 
-[Wiki](https://modrinth.com/plugin/miniplaceholders-chunky-expansion)
+```
+<chunky_task_pregen_exists:<world>>
+<chunky_task_pregen_running:<world>>
+<chunky_task_pregen_cancelled:<world>>
+<chunky_task_pregen_centerx:<world>>
+<chunky_task_pregen_centerz:<world>>
+<chunky_task_pregen_radiusz:<world>>
+<chunky_task_pregen_radiusx:<world>>
+<chunky_task_pregen_radius:<world>>
+<chunky_task_pregen_count:<world>>
+<chunky_task_pregen_pattern:<world>>
+<chunky_task_pregen_shape:<world>>
+<chunky_task_pregen_time:<world>>
+<chunky_task_pregen_world:<world>>
+<chunky_task_pregen_chunks:<world>>
+<chunky_task_pregen_complete:<world>>
+<chunky_task_pregen_percent:<world>>
+<chunky_task_pregen_hours:<world>>
+<chunky_task_pregen_minutes:<world>>
+<chunky_task_pregen_seconds:<world>>
+<chunky_task_pregen_rate:<world>>
+<chunky_task_pregen_x:<world>>
+<chunky_task_pregen_z:<world>>
+```
 
 ## [ClientCatcher](https://modrinth.com/plugin/clientcatcher)
 
 :::note[Built-in expansion]
 :::
-
-[Wiki](https://modrinth.com/plugin/clientcatcher)
 
 ```
 <clientcatcher_client>
@@ -197,17 +218,13 @@ MiniPlaceholders v3 was recently released, and several of the expansions shown h
 :::note[Built-in expansion]
 :::
 
-[Wiki](https://modrinth.com/plugin/creative-faces)
-
 ```
 <faces_player>
 ```
 
-## Cobblemon
+## [Cobblemon](https://modrinth.com/mod/cobblemon)
 
-[Cobblemon Download](https://modrinth.com/mod/cobblemon)
-
-[Cobblemon Expansion Download](https://modrinth.com/mod/cobblemonplaceholders)
+[Expansion Download](https://modrinth.com/mod/cobblemonplaceholders)
 
 [Wiki](https://github.com/PokeSkies/CobblemonPlaceholders/wiki/Placeholders)
 
@@ -235,9 +252,7 @@ MiniPlaceholders v3 was recently released, and several of the expansions shown h
 <epicguard_connections_per_second>
 ```
 
-## Floodgate
-
-[Floodgate Download](https://geysermc.org/download)
+## [Floodgate](https://geysermc.org/wiki/floodgate/)
 
 [Expansion Download](https://github.com/MiniPlaceholders/Floodgate-Expansion/releases)
 
@@ -247,8 +262,6 @@ MiniPlaceholders v3 was recently released, and several of the expansions shown h
 
 :::note[STANDALONE EXPANSION]
 :::
-
-[Expansion Download]
 
 [Wiki](https://github.com/MiniPlaceholders/ItemDisplay)
 
@@ -267,17 +280,13 @@ MiniPlaceholders v3 was recently released, and several of the expansions shown h
   </tr>
 </table>
 
-## Insights
-
-[Insights Download](https://modrinth.com/plugin/insights)
+## [Insights](https://modrinth.com/plugin/insights)
 
 [Expansion Download](https://github.com/MiniPlaceholders/Insights-Expansion/releases)
 
 [Wiki](https://github.com/MiniPlaceholders/Insights-Expansion)
 
-## Impactor
-
-[Impactor Download](https://modrinth.com/mod/impactor)
+## [Impactor](https://modrinth.com/mod/impactor)
 
 [ImpactorPlaceholders Download](https://github.com/PokeSkies/ImpactorPlaceholders)
 
@@ -305,9 +314,7 @@ MiniPlaceholders v3 was recently released, and several of the expansions shown h
 <libsdisguises_player_disguise_name>
 ```
 
-## LuckPerms
-
-[LuckPerms Download](https://luckperms.net/)
+## [LuckPerms](https://luckperms.net/)
 
 [Expansion Download](https://github.com/MiniPlaceholders/LuckPerms-Expansion/releases)
 
@@ -531,9 +538,7 @@ MiniPlaceholders v3 was recently released, and several of the expansions shown h
 <simplyrank_primary_rank>
 ```
 
-## Spark
-
-[Spark Download](https://spark.lucko.me/)
+## [Spark](https://spark.lucko.me/)
 
 [Expansion Download](https://github.com/MiniPlaceholders/Spark-Expansion/releases)
 
@@ -626,17 +631,23 @@ MiniPlaceholders v3 was recently released, and several of the expansions shown h
 <unemoji_emoji:[id]>
 ```
 
-## Vault
-
-[Vault Download](https://www.spigotmc.org/resources/vault.34315/)
+## [Vault](https://www.spigotmc.org/resources/vault.34315/)
 
 [Expansion Download](https://github.com/MiniPlaceholders/Vault-Expansion)
 
-[Wiki](https://github.com/MiniPlaceholders/Vault-Expansion)
+```
+<vault_prefix>
+<vault_suffix>
+<vault_has_permission:[permission]>
+<vault_group>
+<vault_groups>
+<vault_group_prefix>
+<vault_group_suffix>
+<vault_in_group:[group]>
+<vault_in_primary_group:[group]>
+```
 
-## ViaVersion
-
-[ViaVersion Download](https://modrinth.com/plugin/viaversion)
+## [ViaVersion](https://hangar.papermc.io/ViaVersion/ViaVersion)
 
 [Expansion Download](https://github.com/MiniPlaceholders/ViaVersion-Expansion)
 

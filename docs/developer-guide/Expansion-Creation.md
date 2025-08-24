@@ -1,4 +1,5 @@
 ---
+title: Expansion Creation
 sidebar_label: 'Expansion Creation'
 sidebar_position: 2
 ---

@@ -1,4 +1,5 @@
 ---
+title: MiniMessage API Usage
 sidebar_label: 'MiniMessage Integration'
 sidebar_position: 5
 ---
@@ -6,18 +7,20 @@ sidebar_position: 5
 MiniPlaceholders is a plugin that is completely based on the MiniMessage API. Therefore, to get the placeholders and to create expansions you need to have a basic knowledge.
 Here I will try to explain you in the best way how these APIs are related.
 
-# Obtaining Placeholders
---- TODO ---
+## TagResolver
+
+When you obtain the placeholders of a respective type, you will get an object of the TagResolver type. This object is capable of providing a Tag from a text or null if it does not correspond.
+
 ```java
 final TagResolver resolver = MiniPlaceholders.globalPlaceholders();
 ```
+
+It is recommended not to use TagResolver directly, but to delegate its use to MiniMessage parsing as appropriate.
 
 ```java
 final MiniMessage miniMessage = MiniMessage.miniMessage();
 final Component component = miniMessage.deserialize("some string with placeholders", resolver);
 ```
-
-# Creating an expansion
 
 ## Tags
 
@@ -52,14 +55,15 @@ This tag inserts a component and passes its attributes to the other characters u
 ```java
 return Tag.inserting(Component.text("Hi", NamedTextColor.RED));
 ```
-
-#### Desired Usage
+:::note[Recommended Usage]
 
 ```java
 // In this example, the placeholder player_prefix would use an inserting tag,
 // which would inherit the formatting to the following characters until a <reset> is done or the </player_prefix> tag is closed
 String string = "<player_prefix><player_name><gray>:<reset> <message>"
 ```
+
+:::
 
 ### Styling
 
@@ -69,11 +73,14 @@ This tag applies formatting to the following characters until it is closed
 return Tag.styling(NamedTextColor.AQUA);
 ```
 
-#### Desired Usage
+
+:::note[Recommended Usage]
 
 ```java
 String string = "<player_prefix><player_name><gray>: <player_chat_color><message>";
 ```
+
+:::
 
 ## ArgumentQueue
 
