@@ -23,7 +23,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'MiniPlaceholders', // Usually your GitHub org/user name.
-  projectName: 'MiniPlaceholders', // Usually your repo name.
+  projectName: 'docs', // Usually your repo name.
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
@@ -46,7 +46,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/MiniPlaceholders/MiniPlaceholders/docs',
+            'https://github.com/MiniPlaceholders/docs',
         },
         blog: false,//{
           //showReadingTime: true,
@@ -57,7 +57,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           //editUrl:
-            //'https://github.com/MiniPlaceholders/MiniPlaceholders/docs',
+            //'https://github.com/MiniPlaceholders/docs',
           // Useful options to enforce blogging best practices
           //onInlineTags: 'warn',
           //onInlineAuthors: 'warn',
