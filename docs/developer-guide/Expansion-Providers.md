@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Commands'
+sidebar_label: 'Expansion Providers'
 sidebar_position: 4
 ---
 

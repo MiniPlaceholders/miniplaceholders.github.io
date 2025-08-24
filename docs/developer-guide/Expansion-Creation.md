@@ -5,7 +5,7 @@ sidebar_position: 2
 
 :::info
 
-If you are looking for how to create a standalone jar for your expansion, check out how to create an [Expansion Provider](https://github.com/MiniPlaceholders/MiniPlaceholders/wiki/Expansion-Providers) first.
+If you are looking for how to create a standalone jar for your expansion, check out how to create an [Expansion Provider](docs/developer-guide/Expansion-Providers.md) first.
 
 :::
 
@@ -83,7 +83,7 @@ It will only filter with the existing filters, if the class filter is null, it w
 
 :::warning
 
-**If you are using a [Expansion Provider](https://github.com/MiniPlaceholders/MiniPlaceholders/wiki/Expansion-Providers), this process is performed by MiniPlaceholders itself when loading the expansion, so you can skip this section.**
+**If you are using a [Expansion Provider](docs/developer-guide/Expansion-Providers.md), this process is performed by MiniPlaceholders itself when loading the expansion, so you can skip this section.**
 
 :::
 
