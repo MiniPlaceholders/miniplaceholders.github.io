@@ -4,9 +4,11 @@ sidebar_label: 'Mod Development'
 sidebar_position: 6
 ---
 
+## Fabric
+
 If you are developing a Fabric mod and want to register placeholders or use placeholders from other plugins, there are a few extra steps to consider
 
-## Dependency
+### Dependency
 
 MiniPlaceholders relies on the Adventure MiniMessage API to get its placeholders and requires valid Audiences for it, so you must rely on Adventure-Platform-Fabric so that player, console and even entities objects can inherit from the Audience interface at compile time and can be used in conjunction with the MiniPlaceholders API.
 
@@ -22,3 +24,7 @@ dependencies {
 }
 
 ```
+
+## (Neo)Forge
+
+Currently, MiniPlaceholders supports development on platforms such as NeoForge or Forge through [SpongeForge](https://spongepowered.org/).
