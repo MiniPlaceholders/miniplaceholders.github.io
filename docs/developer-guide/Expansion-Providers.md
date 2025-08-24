@@ -51,7 +51,7 @@ In the loadRequirement() method, you must return the requirements that must be m
 
 :::warning
 
-> Remember **not** to register your expansion before returning it in the provideExpansion method.
+Remember **not** to register your expansion before returning it in the provideExpansion method.
 
 :::
 
