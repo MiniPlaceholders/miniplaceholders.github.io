@@ -59,6 +59,13 @@ In these plugins/mods you can use MiniPlaceholders placeholders in all your mess
 * ### [mServerLinks](https://github.com/powercasgamer/mServerLinks)
 * ### [zHub](https://github.com/MizuleDevelopmentORG/zHub)
 * ### [TeamChat](https://modrinth.com/plugin/teamchat)
+* ### [FlectonePulse](https://flectone.net/pulse/)
+* ### [NetworkJoinMessages](https://www.spigotmc.org/resources/networkjoinmessages-bungeecord-velocity-wide-join-leave-and-switch-messages.118643/)
+* ### [frosted-nameplates](https://github.com/pandier/frosted-nameplates)
+* ### [BungosHolos](https://github.com/nbarudi/BungosHolos)
+* ### [SlimeRanks](https://modrinth.com/plugin/slimeranks)
+* ### [FormatterX](https://syntaxdevteam.github.io/FormatterX/)
+* ### [ZAutoBroadcast](https://modrinth.com/plugin/zautobroadcast)
 
 ## Libraries with MiniPlaceholders support
 You can use these libraries in combination with the MiniPlaceholders API
@@ -66,3 +73,4 @@ You can use these libraries in combination with the MiniPlaceholders API
 * ### [ProtocolSidebar](https://github.com/CatCoderr/ProtocolSidebar)
 * ### [ChatColorHandler](https://github.com/CoolDCB/ChatColorHandler)
 * ### [DaisyLib](https://github.com/FireML-Dev/DaisyLib)
+* ### [ColorParser](https://github.com/milkdrinkers/ColorParser)

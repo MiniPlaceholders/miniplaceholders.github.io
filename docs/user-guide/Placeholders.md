@@ -21,11 +21,13 @@ MiniPlaceholders v3 is about to be released, and several of the expansions shown
 
 ## Index
 - A
+  - [AldrTeams](#aldrteams)
   - [AuthMeVelocity](#authmevelocity)
   - [AFKPlus](#afkplus)
 - B
   - [Bending](#bending)
   - [beanstalk](#beanstalk)
+  - [BetterChestShops](#betterchestshops)
 - C
   - [Carbon](#carbon)
   - [ChatRegulator](#chatregulator)
@@ -51,6 +53,7 @@ MiniPlaceholders v3 is about to be released, and several of the expansions shown
 - K
 - L
   - [LiteEco](#liteeco)
+  - [LibsDisguise](#libsdisguises)
   - [LuckPerms](#luckperms)
 - M
   - [Maintenance](#maintenance)
@@ -71,8 +74,9 @@ MiniPlaceholders v3 is about to be released, and several of the expansions shown
   - [SayanVanish](#sayan-vanish)
   - [SkinsRestorer](#skinsrestorer)
   - [SimplyRank](#simplyrank)
-
   - [Spark](#spark)
+  - [Statics](#statics)
+  - [SuperMines](#supermines)
 - T
   - [tags](#tags)
   - [Treasury](#treasury)
@@ -86,6 +90,18 @@ MiniPlaceholders v3 is about to be released, and several of the expansions shown
 - X
 - Y
 - Z
+
+## [AldrTeams](https://modrinth.com/plugin/aldrteams)
+
+```
+<aldrteams_tag>
+
+<aldrteams_prefix>
+
+<aldrteams_suffix>
+
+<aldrteams_color>
+```
 
 ## [AuthmeVelocity](https://modrinth.com/plugin/authmevelocity)
 
@@ -136,6 +152,10 @@ MiniPlaceholders v3 is about to be released, and several of the expansions shown
 - <bending_selected_ability>
 - <bending_ability_info>
 ```
+
+## [BetterChestShops](https://github.com/ChimpGamer/BetterChestShops)
+
+[Wiki](https://github.com/ChimpGamer/BetterChestShops?tab=readme-ov-file#placeholderapi-placeholders)
 
 ## [Carbon](https://modrinth.com/plugin/carbon)
 
@@ -276,7 +296,18 @@ Displays the item that the player has in the off hand in chat.
 
 ## [LiteEco](https://github.com/EncryptSL/LiteEco)
 
+:::note[Built-in expansion]
+:::
+
 [Placeholders Wiki](https://github.com/EncryptSL/LiteEco/wiki/Placeholders)
+
+## [LibsDisguises](https://github.com/fabianmakila/LibsDisguises-Expansion)
+
+```
+<libsdisguises_disguise_name>
+<libsdisguises_disguise_type>
+<libsdisguises_player_disguise_name>
+```
 
 ## LuckPerms
 
@@ -325,7 +356,7 @@ Displays the item that the player has in the off hand in chat.
 
 [Wiki](https://github.com/MiniPlaceholders/PlaceholderAdapter-Expansion/blob/main/README.md)
 
-## PlatformInfo
+## [PlatformInfo](https://github.com/MiniPlaceholders/PlatformInfo-Expansion)
 
 :::note[Built-in expansion]
 :::
@@ -523,6 +554,29 @@ Returns the number of enabled datapacks
 
 [Wiki](https://github.com/MiniPlaceholders/Spark-Expansion)
 
+## [Statics](https://hangar.papermc.io/TureBentzin/Statics)
+
+:::note[Built-in expansion]
+:::
+
+```
+<statics_[placeholder]>
+```
+
+## [SuperMines](https://hangar.papermc.io/lijinhong11/SuperMines)
+
+:::note[Built-in expansion]
+:::
+
+```
+<supermines_rank> -- return the rank
+<supermines_rank:PLAYER> -- return the rank of the player
+<supermines_mine_resettime:MINE> -- return the remaining reset time of the mine
+<supermines_mine_blocksbroken:MINE> -- return the broken blocks amount (will be 0 when reset)
+<supermines_mine_blockspercent:MINE> -- return the rercentage of remaining blocks to total number of blocks
+<supermines_mine_minedpercent:MINE> -- return the rercentage of broken blocks to total number of blocks
+<supermines_mine_totalblocks:MINE> -- return the total blocks of the mine
+```
 
 ## [tags](https://hangar.papermc.io/broccoli/tags)
 
