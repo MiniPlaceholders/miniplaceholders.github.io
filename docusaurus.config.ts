@@ -72,7 +72,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/miniplaceholders-logo.webp',
+    image: 'img/MiniPlaceholdersBanner.webp',
     navbar: {
       title: 'MiniPlaceholders',
       logo: {
