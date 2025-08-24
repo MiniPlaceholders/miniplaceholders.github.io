@@ -1,0 +1,68 @@
+---
+sidebar_label: 'MiniPlaceholders Compatible Projects'
+sidebar_position: 4
+---
+
+## List of Projects supporting MiniPlaceholders
+In these plugins/mods you can use MiniPlaceholders placeholders in all your messages
+
+* ### [KickRedirect](https://modrinth.com/plugin/kickredirect)
+* ### [AuthMeVelocity](https://modrinth.com/plugin/authmevelocity)
+* ### [ChatRegulator](https://modrinth.com/plugin/chatregulator)
+* ### [Velocitab](https://modrinth.com/plugin/velocitab)
+* ### [Akropolis](https://modrinth.com/plugin/akropolis)
+* ### [VCustomBrand](https://modrinth.com/plugin/vcustombrand)
+* ### [miniannouncer](https://github.com/devblook/miniannouncer/tree/feature/message-handler)
+* ### [VServerInfo](https://modrinth.com/plugin/vserverinfo)
+* ### [FancyHolograms](https://github.com/OliverSchlueter/FancyHolograms)
+* ### [CarbonChat](https://github.com/Hexaoxide/Carbon)
+* ### [BetterGUI](https://modrinth.com/plugin/bettergui) with its [Paper Addon](https://bettergui-mc.github.io/Docs/addon/paper-spec/)
+* ### [ChatBeautifier](https://polymart.org/resource/chatbeautifier.3900)
+* ### [VLobby](https://github.com/4drian3d/VLobby)
+* ### [PAPISigns](https://github.com/ArcanePlugins/PAPISigns)
+* ### [GeoSense](https://hangar.papermc.io/powercas_gamer/Geosense)
+* ### [NoPluginsCommand](https://github.com/SimplyVanilla/NoPluginsCommand)
+* ### [SimplyRank](https://github.com/SimplyVanilla/SimplyRank)
+* ### [FairyChat](https://modrinth.com/plugin/fairychat)
+* ### [BetterBoard](https://www.spigotmc.org/resources/betterboard.96393/)
+* ### [MiniCommands](https://github.com/BlockhostOfficial/MiniCommands)
+* ### [message](https://hangar.papermc.io/OskarsMC-Plugins/message)
+* ### [Treasury](https://github.com/ArcanePlugins/Treasury/)
+* ### [ClientCatcher](https://modrinth.com/plugin/clientcatcher)
+* ### [VelocityCarbonDiscord](https://github.com/Jarva/VelocityCarbonDiscord)
+* ### [TumiTranslator](https://builtbybit.com/resources/tumitranslator.30581/)
+* ### [ChatLab](https://modrinth.com/plugin/chatlab)
+* ### [TDeathMessages](https://github.com/Saturn745/TDeathMessages)
+* ### [LuaLink](https://modrinth.com/plugin/lualink) with its [MiniPlaceholders Addon](https://github.com/LuaLink/LuaLink-MiniPlaceholders)
+* ### [SkiesAnnouncements](https://modrinth.com/mod/skiesannouncements)
+* ### [SkiesGuis](https://modrinth.com/mod/skiesguis)
+* ### [SkiesKits](https://modrinth.com/mod/skieskits)
+* ### [JoinProtection](https://modrinth.com/plugin/joinprotection)
+* ### [Leaf](https://modrinth.com/plugin/leaf)
+* ### [PistonChat](https://github.com/AlexProgrammerDE/PistonChat)
+* ### [UltimateJQMessages](https://polymart.org/resource/ultimatejqmessages.4815)
+* ### [ProxyChat](https://modrinth.com/plugin/proxychat)
+* ### [VelocityInventory](https://github.com/smuddgge/VelocityInventory)
+* ### [CommandItem](https://github.com/tyonakaisan/CommandItem)
+* ### [ReallyFakePlayers](https://dev.bukkit.org/projects/really-fake-players)
+* ### [WebhookChatLogger](https://github.com/fabianmakila/WebhookChatLogger)
+* ### [LogicalChat](https://www.spigotmc.org/resources/logicalchat-1-20x-best-chat-plugin.114302/)
+* ### [Runway](https://github.com/xMrAfonso/Runway)
+* ### [UltimateMobCoins](https://hangar.papermc.io/ChimpGamer/UltimateMobCoins)
+* ### [bee-chat](https://github.com/beaver010/bee-chat)
+* ### [UnlimitedNametags](https://github.com/alexdev03/UnlimitedNametags)
+* ### [Hermes](https://github.com/TitanPowered/Hermes)
+* ### [SimplyNicks](https://github.com/SimplyVanilla/SimplyNicks)
+* ### [CreditLite](https://github.com/EncryptSL/CreditLite)
+* ### [MoreFishRemake](https://github.com/NamiUni/MoreFishRemake-WIP)
+* ### [Duels](https://github.com/GreenedDev/Duels)
+* ### [mServerLinks](https://github.com/powercasgamer/mServerLinks)
+* ### [zHub](https://github.com/MizuleDevelopmentORG/zHub)
+* ### [TeamChat](https://modrinth.com/plugin/teamchat)
+
+## Libraries with MiniPlaceholders support
+You can use these libraries in combination with the MiniPlaceholders API
+
+* ### [ProtocolSidebar](https://github.com/CatCoderr/ProtocolSidebar)
+* ### [ChatColorHandler](https://github.com/CoolDCB/ChatColorHandler)
+* ### [DaisyLib](https://github.com/FireML-Dev/DaisyLib)
