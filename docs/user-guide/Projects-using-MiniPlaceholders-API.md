@@ -22,7 +22,7 @@ In these plugins/mods you can use MiniPlaceholders placeholders in all your mess
 * ### [PAPISigns](https://github.com/ArcanePlugins/PAPISigns)
 * ### [GeoSense](https://hangar.papermc.io/powercas_gamer/Geosense)
 * ### [NoPluginsCommand](https://github.com/SimplyVanilla/NoPluginsCommand)
-* ### [SimplyRank](https://github.com/SimplyVanilla/SimplyRank)
+* ### [SimplyTab](https://github.com/SimplyVanilla/SimplyTab)
 * ### [FairyChat](https://modrinth.com/plugin/fairychat)
 * ### [BetterBoard](https://www.spigotmc.org/resources/betterboard.96393/)
 * ### [MiniCommands](https://github.com/BlockhostOfficial/MiniCommands)

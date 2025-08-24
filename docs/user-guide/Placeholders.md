@@ -21,66 +21,67 @@ MiniPlaceholders v3 is about to be released, and several of the expansions shown
 
 ## Index
 - A
-  - [AuthMeVelocity](https://github.com/MiniPlaceholders/MiniPlaceholders/wiki/Placeholders#authmevelocity)
-  - [AFKPlus](https://github.com/NotAlexNoyle/MiniPlaceholders-AFKPlus)
+  - [AuthMeVelocity](#authmevelocity)
+  - [AFKPlus](#afkplus)
 - B
-  - [Bending](https://github.com/MiniPlaceholders/MiniPlaceholders/wiki/Placeholders#bending)
-  - [beanstalk](https://github.com/MiniPlaceholders/MiniPlaceholders/wiki/Placeholders#beanstalk)
+  - [Bending](#bending)
+  - [beanstalk](#beanstalk)
 - C
-  - [Carbon](https://github.com/MiniPlaceholders/MiniPlaceholders/wiki/Placeholders#carbon)
-  - [ChatRegulator](https://github.com/MiniPlaceholders/MiniPlaceholders/wiki/Placeholders#chatregulator)
-  - [Chunky](https://github.com/MiniPlaceholders/MiniPlaceholders/wiki/Placeholders#chunky)
-  - [ClientCatcher](https://github.com/MiniPlaceholders/MiniPlaceholders/wiki/Placeholders#clientcatcher)
-  - [creative-faces](https://github.com/MiniPlaceholders/MiniPlaceholders/wiki/Placeholders#creative-faces)
-  - [Cobblemon](https://github.com/MiniPlaceholders/MiniPlaceholders/wiki/Placeholders#cobblemon)
+  - [Carbon](#carbon)
+  - [ChatRegulator](#chatregulator)
+  - [Chunky](#chunky)
+  - [ClientCatcher](#clientcatcher)
+  - [creative-faces](#creative-faces)
+  - [Cobblemon](#cobblemon)
 - D
-  - [Duels](https://github.com/MiniPlaceholders/MiniPlaceholders/wiki/Placeholders#duels)
+  - [Duels](#duels)
 - E
-  - [EpicGuard](https://github.com/MiniPlaceholders/MiniPlaceholders/wiki/Placeholders#epicguard)
-  - [Expressions](https://github.com/MiniPlaceholders/MiniPlaceholders/wiki/Placeholders#expressions)
+  - [EpicGuard](#epicguard)
+  - [Expressions](#expressions)
 - F
-  - [Floodgate](https://github.com/MiniPlaceholders/MiniPlaceholders/wiki/Placeholders#floodgate)
+  - [Floodgate](#floodgate)
 - G
 - H
 - I
-  - [ItemDisplay](https://github.com/MiniPlaceholders/MiniPlaceholders/wiki/Placeholders#itemdisplay)
-  - [Insights](https://github.com/MiniPlaceholders/MiniPlaceholders/wiki/Placeholders#insights)
-  - ImpactorPlaceholders
+  - [ItemDisplay](#itemdisplay)
+  - [Insights](#insights)
+  - [ImpactorPlaceholders](#impactor)
 - J
-  - JoinProtection
+  - [JoinProtection](#joinprotection)
 - K
 - L
-  - [LiteEco](https://github.com/MiniPlaceholders/MiniPlaceholders/wiki/Placeholders#liteeco)
-  - [LuckPerms](https://github.com/MiniPlaceholders/MiniPlaceholders/wiki/Placeholders#luckperms)
+  - [LiteEco](#liteeco)
+  - [LuckPerms](#luckperms)
 - M
-  - [Maintenance](https://github.com/MiniPlaceholders/MiniPlaceholders/wiki/Placeholders#maintenance)
+  - [Maintenance](#maintenance)
 - N
-  - [Noble Whitelist](https://github.com/MiniPlaceholders/MiniPlaceholders/wiki/Placeholders#noble-whitelist)
+  - [Noble Whitelist](#noble-whitelist)
 - O
 - P
-  - [PlaceholderAdapter](https://github.com/MiniPlaceholders/MiniPlaceholders/wiki/Placeholders#placeholderadapter)
-  - [PlatformInfo](https://github.com/MiniPlaceholders/MiniPlaceholders/wiki/Placeholders#platforminfo)
-  - [Player](https://github.com/MiniPlaceholders/MiniPlaceholders/wiki/Placeholders#player-expansion)
+  - [PlaceholderAdapter](#placeholderadapter)
+  - [PlatformInfo](#platforminfo)
+  - [Player](#player)
   - [PlotSquared *soon*](https://github.com/IntellectualSites/PlotSquared/pull/4284)
-  - [PremiumVanish](https://github.com/MiniPlaceholders/MiniPlaceholders/wiki/Placeholders#premiumvanish)
+  - [PremiumVanish](#premiumvanish)
+  - [ProxyConnection](#proxyconnection)
 - Q
 - R
-  - [ReallyFakePlayers](https://github.com/MiniPlaceholders/MiniPlaceholders/wiki/Placeholders#reallyfakeplayers)
+  - [ReallyFakePlayers](#reallyfakeplayers)
 - S
-  - [Spark](https://github.com/MiniPlaceholders/MiniPlaceholders/wiki/Placeholders#spark)
-  - [SayanVanish](https://github.com/MiniPlaceholders/MiniPlaceholders/wiki/Placeholders#sayan-vanish)
-  - [SkinsRestorer](https://github.com/MiniPlaceholders/MiniPlaceholders/wiki/Placeholders#skinsrestorer)
-  - [SimplyRank](https://github.com/SimplyVanilla/SimplyRank)
-  - [SimplyTAB](https://hangar.papermc.io/SimplyVanilla/SimplyTAB)
+  - [SayanVanish](#sayan-vanish)
+  - [SkinsRestorer](#skinsrestorer)
+  - [SimplyRank](#simplyrank)
+
+  - [Spark](#spark)
 - T
-  - [tags](https://github.com/MiniPlaceholders/MiniPlaceholders/wiki/Placeholders#tags)
-  - [Treasury](https://github.com/MiniPlaceholders/MiniPlaceholders/wiki/Placeholders#treasury)
+  - [tags](#tags)
+  - [Treasury](#treasury)
 - U
-  - [unemojis](https://github.com/MiniPlaceholders/MiniPlaceholders/wiki/Placeholders#unemojis)
-  - [UltimateMobCoins](https://github.com/ChimpGamer/UltimateMobCoins)
+  - [unemojis](#unemojis)
+  - [UltimateMobCoins](#ultimatemobcoins)
 - V
-  - [Vault](https://github.com/MiniPlaceholders/MiniPlaceholders/wiki/Placeholders#vault)
-  - [ViaVersion](https://github.com/MiniPlaceholders/MiniPlaceholders/wiki/Placeholders#viaversion)
+  - [Vault](#vault)
+  - [ViaVersion](#viaversion)
 - W
 - X
 - Y
@@ -457,6 +458,14 @@ Returns the number of enabled datapacks
 <premiumvanish_seelevel>
 ```
 
+## [ProxyConnection](https://github.com/MiniPlaceholders/ProxyConnection-Expansion)
+
+```
+<proxyconnection_player_count>
+
+<proxyconnection_player_count:(server)>
+```
+
 ## [ReallyFakePlayers](https://github.com/marlester-dev/ReallyFakePlayers)
 
 ```
@@ -495,6 +504,17 @@ Returns the number of enabled datapacks
 <skinsrestorer_texture_id_or_alex>
 ```
 
+## SimplyRank
+
+```
+<simplyrank_code_color>
+
+<simplyrank_prefix>
+
+<simplyrank_primary_rank>
+
+```
+
 ## Spark
 
 [Spark Download](https://spark.lucko.me/)
@@ -523,6 +543,10 @@ Displays the current player tag
 :::
 
 [Wiki](https://github.com/ArcanePlugins/Treasury/wiki/Treasury-Placeholders)
+
+## [UltimateMobCoins](https://github.com/ChimpGamer/UltimateMobCoins)
+
+[Placeholders Wiki](https://networkmanager.gitbook.io/ultimatemobcoins/miniplaceholders)
 
 ## [unemojis](https://modrinth.com/plugin/unemojis)
 

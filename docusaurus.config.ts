@@ -86,11 +86,16 @@ const config: Config = {
           position: 'left',
           label: 'Documentation',
         },
-        //{
-         // to: 'docs/developer-guide',
-         // position: 'left',
-          //label: 'Dev Guide',
-        //},
+        {
+          to: 'docs/category/user-guide',
+          position: 'left',
+          label: 'User Guide',
+        },
+        {
+          to: 'docs/category/developer-guide',
+          position: 'left',
+          label: 'Dev Guide',
+        },
         {
           href: 'https://github.com/MiniPlaceholders/MiniPlaceholders',
           label: 'GitHub',
