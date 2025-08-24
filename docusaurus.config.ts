@@ -46,7 +46,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/MiniPlaceholders/docs',
+            'https://github.com/MiniPlaceholders/miniplaceholders.github.io/tree/main',
         },
         blog: false,//{
           //showReadingTime: true,
