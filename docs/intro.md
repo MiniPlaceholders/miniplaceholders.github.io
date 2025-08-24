@@ -1,4 +1,4 @@
----
+id: intro
 sidebar_position: 1
 title: MiniPlaceholders Wiki
 ---
