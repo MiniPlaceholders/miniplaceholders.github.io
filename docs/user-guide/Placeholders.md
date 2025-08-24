@@ -46,7 +46,7 @@ MiniPlaceholders v3 was recently released, and several of the expansions shown h
 - I
   - [ItemDisplay](#itemdisplay)
   - [Insights](#insights)
-  - [ImpactorPlaceholders](#impactor)
+  - [Impactor](#impactor)
 - J
   - [JoinProtection](#joinprotection)
 - K
@@ -225,7 +225,7 @@ MiniPlaceholders v3 was recently released, and several of the expansions shown h
 
 ## [Expressions](https://modrinth.com/plugin/expressions-expansion)
 
-:::note[Built-in expansion]
+:::note[STANDALONE EXPANSION]
 :::
 
 [Wiki](https://github.com/Sliman4/Expressions-Expansion#expressions-expansion)
@@ -245,7 +245,7 @@ MiniPlaceholders v3 was recently released, and several of the expansions shown h
 
 ## [ItemDisplay](https://github.com/MiniPlaceholders/ItemDisplay-Expansion/releases)
 
-:::note[Built-in expansion]
+:::note[STANDALONE EXPANSION]
 :::
 
 [Expansion Download]
@@ -347,7 +347,7 @@ MiniPlaceholders v3 was recently released, and several of the expansions shown h
 
 ## [PlatformInfo](https://github.com/MiniPlaceholders/PlatformInfo-Expansion)
 
-:::note[Built-in expansion]
+:::note[STANDALONE EXPANSION]
 :::
 
 ### Velocity Placeholders
@@ -437,7 +437,7 @@ MiniPlaceholders v3 was recently released, and several of the expansions shown h
 
 ## [Player](https://github.com/MiniPlaceholders/Player-Expansion)
 
-:::note[Built-in expansion]
+:::note[STANDALONE EXPANSION]
 :::
 
 [Wiki](https://github.com/MiniPlaceholders/Player-Expansion)
@@ -482,6 +482,9 @@ MiniPlaceholders v3 was recently released, and several of the expansions shown h
 
 ## [ProxyConnection](https://github.com/MiniPlaceholders/ProxyConnection-Expansion)
 
+:::note[STANDALONE EXPANSION]
+:::
+
 ```
 <proxyconnection_player_count>
 <proxyconnection_player_count:(server)>
@@ -517,7 +520,10 @@ MiniPlaceholders v3 was recently released, and several of the expansions shown h
 <skinsrestorer_texture_id_or_alex>
 ```
 
-## SimplyRank
+## [SimplyRank](https://github.com/SimplyVanilla/SimplyRank)
+
+:::note[Built-in expansion]
+:::
 
 ```
 <simplyrank_code_color>
