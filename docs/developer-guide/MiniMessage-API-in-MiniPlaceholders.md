@@ -8,11 +8,11 @@ Here I will try to explain you in the best way how these APIs are related.
 
 # Obtaining Placeholders
 --- TODO ---
-```JAVA
+```java
 final TagResolver resolver = MiniPlaceholders.globalPlaceholders();
 ```
 
-```JAVA
+```java
 final MiniMessage miniMessage = MiniMessage.miniMessage();
 final Component component = miniMessage.deserialize("some string with placeholders", resolver);
 ```
@@ -27,13 +27,13 @@ A Tag is an object to be inserted in the final component resulting from the pars
 
 This tag inserts a string directly into the MiniMessage parse, allowing it to be used as an argument within other placeholders.
 
-```JAVA
+```java
 return Tag.preProcessParsed("some content");
 ```
 
 #### Desired Usage
 
-```JAVA
+```java
 String string = "<expansion_argumentprocessing_placeholder:<expansion_preprocessparsed_placeholder>>";
 ```
 
@@ -41,7 +41,7 @@ String string = "<expansion_argumentprocessing_placeholder:<expansion_preprocess
 
 This tag inserts a component directly into the main component, so it will not inherit its style to other components nor can it be used as an argument in another placeholder
 
-```JAVA
+```java
 return Tag.selfClosingInserting(Component.text("Hi"));
 ```
 
@@ -49,13 +49,13 @@ return Tag.selfClosingInserting(Component.text("Hi"));
 
 This tag inserts a component and passes its attributes to the other characters until the tag is closed.
 
-```JAVA
+```java
 return Tag.inserting(Component.text("Hi", NamedTextColor.RED));
 ```
 
 #### Desired Usage
 
-```JAVA
+```java
 // In this example, the placeholder player_prefix would use an inserting tag,
 // which would inherit the formatting to the following characters until a <reset> is done or the </player_prefix> tag is closed
 String string = "<player_prefix><player_name><gray>:<reset> <message>"
@@ -65,13 +65,13 @@ String string = "<player_prefix><player_name><gray>:<reset> <message>"
 
 This tag applies formatting to the following characters until it is closed
 
-```JAVA
+```java
 return Tag.styling(NamedTextColor.AQUA);
 ```
 
 #### Desired Usage
 
-```JAVA
+```java
 String string = "<player_prefix><player_name><gray>: <player_chat_color><message>";
 ```
 
@@ -81,7 +81,7 @@ The ArgumentQueue object allows you to get the arguments of the placeholder. The
 
 For example, you have a placeholder that does a sum with all the numbers provided in placeholders:
 
-```JAVA
+```java
 builder.globalPlaceholder("queue_example", (Context context, ArgumentQueue argumentQueue) -> {
   int sum = 0;
   while (queue.hasNext()) {
@@ -99,7 +99,7 @@ The Context object gives you information about the current TagResolvers parse co
 
 For example, note that the user provides an argument with a legacy string (&) that he wants to be converted into a component, but also includes a placeholder with his username.
 
-```JAVA
+```java
 builder.globalPlaceholder("context_example", (Context context, ArgumentQueue argumentQueue) -> {
   String argument = argumentQueue.popOr("Error: argument not provided");
   // The LegacyStrings#parsePossibleLegacy method converts the text to minimessage format and, using the context, applies the corresponding placeholders.

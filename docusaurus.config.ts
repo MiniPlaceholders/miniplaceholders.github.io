@@ -86,6 +86,11 @@ const config: Config = {
           position: 'left',
           label: 'Documentation',
         },
+        //{
+         // to: 'docs/developer-guide',
+         // position: 'left',
+          //label: 'Dev Guide',
+        //},
         {
           href: 'https://github.com/MiniPlaceholders/MiniPlaceholders',
           label: 'GitHub',
@@ -120,6 +125,7 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+      additionalLanguages: ['java', 'properties', 'xml'],
     },
   } satisfies Preset.ThemeConfig,
 };

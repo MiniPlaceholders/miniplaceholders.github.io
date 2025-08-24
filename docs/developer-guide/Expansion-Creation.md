@@ -27,7 +27,7 @@ In each placeholder registration method, you have to return a Tag with the requi
 
 In MiniPlaceholders you can create global placeholders, which can be called without the need for an Audience argument
 
-```js
+```java
 // example placeholder name: `<example_online_players>`
 builder.globalPlaceholder("online_players", (queue, ctx) -> {
     // calculate stuff
@@ -43,7 +43,7 @@ builder.globalPlaceholder("online_players", (queue, ctx) -> {
 ### Audience Placeholder
 
 
-```js
+```java
 // example placeholder name: `<example_player_name>`
 builder.audiencePlaceholder("player_name", (audience, queue, ctx) -> {
     // calculate stuff
@@ -57,7 +57,7 @@ builder.audiencePlaceholder("player_name", (audience, queue, ctx) -> {
 ### Relational Placeholder
 
 
-```js
+```java
 // example placeholder name: `<example_rel_are_enemies>`
 builder.relationalPlaceholder("are_enemies", (audience, otherAudience, queue, ctx) -> {
     // calculate stuff

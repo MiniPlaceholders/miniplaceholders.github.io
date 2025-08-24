@@ -9,7 +9,7 @@ You can get the required plugin placeholders whenever you want, from the methods
 
 ### Global
 
-```JAVA
+```java
 TagResolver resolver = MiniPlaceholders.globalPlaceholders();
 
 Component parsedMessage = MiniMessage.miniMessage().deserialize("Online Players: <proxy_online_players>", resolver);
@@ -22,7 +22,7 @@ Starting with MiniPlaceholders v3, the returned TagResolvers do not depend on an
 :::
 
 ### Audience
-```JAVA
+```java
 Player player = event.getPlayer();
 
 TagResolver resolver = MiniPlaceholders.audiencePlaceholders();
@@ -32,7 +32,7 @@ Component parsedMessage = MiniMessage.miniMessage().deserialize("Player name: <p
 
 ### Relational
 
-```JAVA
+```java
 Player mainPlayer = event.getPlayer();
 Player playerTwo = event.getAttacker();
 
@@ -45,7 +45,7 @@ Component parsedMessage = MiniMessage.miniMessage().deserialize("Player name: <p
 You can also use unregistered Expansions to obtain placeholders. This can be useful for example, for an internal expansion of your plugin.
 
 
-```JAVA
+```java
 Expansion expansion = Expansion.builder("internal")
     .globalPlaceholder("sum", (queue, ctx) -> {
         int sum = 0;
