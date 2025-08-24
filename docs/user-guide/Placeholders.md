@@ -5,21 +5,20 @@ sidebar_position: 2
 
 :::info
 
-MiniPlaceholders v3 is about to be released, and several of the expansions shown here have not yet been updated to this version. Please be patient, as they will be updated over the coming days.
+MiniPlaceholders v3 was recently released, and several of the expansions shown here have not yet been updated to this version. Please be patient, as they will be updated over the coming days.
 
 :::
 
-
 :::tip[LEGEND]
 
- 
- `(argument)` = Optional
+`(argument)` = Optional
 
- `[argument]` = Required
+`[argument]` = Required
 
 :::
 
 ## Index
+
 - A
   - [AldrTeams](#aldrteams)
   - [AuthMeVelocity](#authmevelocity)
@@ -71,7 +70,7 @@ MiniPlaceholders v3 is about to be released, and several of the expansions shown
 - R
   - [ReallyFakePlayers](#reallyfakeplayers)
 - S
-  - [SayanVanish](#sayan-vanish)
+  - [SayanVanish](#sayanvanish)
   - [SkinsRestorer](#skinsrestorer)
   - [SimplyRank](#simplyrank)
   - [Spark](#spark)
@@ -95,11 +94,8 @@ MiniPlaceholders v3 is about to be released, and several of the expansions shown
 
 ```
 <aldrteams_tag>
-
 <aldrteams_prefix>
-
 <aldrteams_suffix>
-
 <aldrteams_color>
 ```
 
@@ -111,10 +107,8 @@ MiniPlaceholders v3 is about to be released, and several of the expansions shown
 [Wiki](https://github.com/4drian3d/AuthmeVelocity)
 
 ```
-- <authme_is_logged>
-
-- <authme_is_player_logger:[player name]>
-
+<authme_is_logged>
+<authme_is_player_logger:[player name]>
 ```
 
 ## [AFKPlus](https://github.com/NotAlexNoyle/MiniPlaceholders-AFKPlus)
@@ -132,11 +126,9 @@ MiniPlaceholders v3 is about to be released, and several of the expansions shown
 :::
 
 ```
-- <beanstalk_status>
-
-- <beanstalk_remaining>
+<beanstalk_status>
+<beanstalk_remaining>
 ```
-
 
 ## [Bending](https://modrinth.com/plugin/bending)
 
@@ -146,11 +138,11 @@ MiniPlaceholders v3 is about to be released, and several of the expansions shown
 [Wiki](https://github.com/PrimordialMoros/Bending/wiki/Placeholders)
 
 ```
-- <bending_elements>
-- <bending_element>
-- <bending_display_name>
-- <bending_selected_ability>
-- <bending_ability_info>
+<bending_elements>
+<bending_element>
+<bending_display_name>
+<bending_selected_ability>
+<bending_ability_info>
 ```
 
 ## [BetterChestShops](https://github.com/ChimpGamer/BetterChestShops)
@@ -177,7 +169,7 @@ MiniPlaceholders v3 is about to be released, and several of the expansions shown
 [Wiki](https://github.com/4drian3d/ChatRegulator)
 
 ```
-- <chatregulator_infractions_count:[infraction type]>
+<chatregulator_infractions_count:[infraction type]>
 ```
 
 ## Chunky
@@ -194,13 +186,10 @@ MiniPlaceholders v3 is about to be released, and several of the expansions shown
 [Wiki](https://modrinth.com/plugin/clientcatcher)
 
 ```
-- <clientcatcher_client>
-
-- <clientcatcher_mods>
-
-- <clientcatcher_player_client:[player name]>
-
-- <clientcatcher_player_mods:[player name]>
+<clientcatcher_client>
+<clientcatcher_mods>
+<clientcatcher_player_client:[player name]>
+<clientcatcher_player_mods:[player name]>
 ```
 
 ## [Creative-faces](https://modrinth.com/plugin/creative-faces)
@@ -211,7 +200,7 @@ MiniPlaceholders v3 is about to be released, and several of the expansions shown
 [Wiki](https://modrinth.com/plugin/creative-faces)
 
 ```
-- <faces_player>
+<faces_player>
 ```
 
 ## Cobblemon
@@ -222,7 +211,7 @@ MiniPlaceholders v3 is about to be released, and several of the expansions shown
 
 [Wiki](https://github.com/PokeSkies/CobblemonPlaceholders/wiki/Placeholders)
 
-## [Duels](https://www.spigotmc.org/resources/duels-player-vs-player-with-restrictions-1-20-perfect-for-pvp-servers.114685/) 
+## [Duels](https://www.spigotmc.org/resources/duels-player-vs-player-with-restrictions-1-20-perfect-for-pvp-servers.114685/)
 
 :::note[Built-in expansion]
 :::
@@ -234,7 +223,7 @@ MiniPlaceholders v3 is about to be released, and several of the expansions shown
 
 [Wiki](https://modrinth.com/plugin/epicguard)
 
-## [Expresions](https://modrinth.com/plugin/expressions-expansion)
+## [Expressions](https://modrinth.com/plugin/expressions-expansion)
 
 :::note[Built-in expansion]
 :::
@@ -242,8 +231,8 @@ MiniPlaceholders v3 is about to be released, and several of the expansions shown
 [Wiki](https://github.com/Sliman4/Expressions-Expansion#expressions-expansion)
 
 ```
-- <epicguard_attack_status>
-- <epicguard_connections_per_second>
+<epicguard_attack_status>
+<epicguard_connections_per_second>
 ```
 
 ## Floodgate
@@ -263,13 +252,20 @@ MiniPlaceholders v3 is about to be released, and several of the expansions shown
 
 [Wiki](https://github.com/MiniPlaceholders/ItemDisplay)
 
-```
-<item_display_main_hand:(name)>
-Displays the item that the player has in the main hand in chat.
-
-<item_display_off_hand:(name)>
-Displays the item that the player has in the off hand in chat.
-```
+<table>
+  <tr>
+    <th>Placeholder</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><code>&lt;item_display_main_hand:(name)&gt;</code></td>
+    <td>Displays the item that the player has in the main hand in chat.</td>
+  </tr>
+  <tr>
+    <td><code>&lt;item_display_off_hand:(name)&gt;</code></td>
+    <td>Displays the item that the player has in the off hand in chat.</td>
+  </tr>
+</table>
 
 ## Insights
 
@@ -318,21 +314,14 @@ Displays the item that the player has in the off hand in chat.
 [Wiki](https://github.com/MiniPlaceholders/LuckPerms-Expansion)
 
 ```
-- <luckperms_prefix>
-
-- <luckperms_suffix>
-
-- <luckperms_has_permission:permission>
-
-- <luckperms_check_permission>
-
-- <luckperms_in_group>
-
-- <luckperms_inherited_groups>
-
-- <luckperms_primary_group_name>
-
-- <luckperms_inherits_group>
+<luckperms_check_permission>
+<luckperms_has_permission:permission>
+<luckperms_in_group>
+<luckperms_inherited_groups>
+<luckperms_inherits_group>
+<luckperms_prefix>
+<luckperms_primary_group_name>
+<luckperms_suffix>
 ```
 
 ## [Maintenance](https://hangar.papermc.io/kennytv/MaintenanceAddon)
@@ -362,75 +351,89 @@ Displays the item that the player has in the off hand in chat.
 :::
 
 ### Velocity Placeholders
-
-```
-- <proxy_online_players:(server)>
-
-Returns the number of connected users.
-Optionally accepts a server value to show the number of connected users on that server
-
-- <proxy_server_count>
-
-Returns the number of registered servers
-
-- <proxy_is_player_online:[player]>
-
-Returns true if the player is connected, otherwise false
-
-- <proxy_version>
-
-Return version of Velocity
-```
+<table>
+  <tr>
+    <th>Placeholder</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><code>&lt;proxy_online_players:(server)&gt;</code></td>
+    <td>
+      Returns the number of connected users.
+      Optionally accepts a server value to show the number of connected users on that server
+    </td>
+  </tr>
+  <tr>
+    <td><code>&lt;proxy_server_count&gt;</code></td>
+    <td>Returns the number of registered servers</td>
+  </tr>
+  <tr>
+    <td><code>&lt;proxy_is_player_online:[player]&gt;</code></td>
+    <td>Returns true if the player is connected, otherwise false</td>
+  </tr>
+  <tr>
+    <td><code>&lt;proxy_version&gt;</code></td>
+    <td>Return version of Velocity</td>
+  </tr>
+</table>
 
 ### Paper, Fabric, Sponge Placeholders
 
-```
-- <server_name>
+<table>
+  <tr>
+    <th>Placeholder</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><code>&lt;server_name&gt;</code></td>
+    <td>Shows you the name of the server</td>
+  </tr>
+  <tr>
+    <td><code>&lt;server_version&gt;</code></td>
+    <td>Shows you the server version</td>
+  </tr>
+  <tr>
+    <td><code>&lt;server_online&gt;</code></td>
+    <td>Shows you the number of online users</td>
+  </tr>
+  <tr>
+    <td><code>&lt;server_max_players&gt;</code></td>
+    <td>Shows you the maximum number of users that can enter the server</td>
+  </tr>
+  <tr>
+    <td><code>&lt;server_unique_joins&gt;</code></td>
+    <td>
+      Shows you the number of users who have ever logged in to the server
 
-Shows you the name of the server
+      <strong>Be careful with this placeholder, it can be quite heavy depending on the number of registered players</strong>
+    </td>
 
-- <server_version>
-
-Shows you the server version
-
-- <server_online>
-
-Shows you the number of online users
-
-- <server_max_players>
-
-Shows you the maximum number of users that can enter the server
-
-- <server_unique_joins>
-
-Shows you the number of users who have ever logged in to the server
-
-**Be careful with this placeholder, it can be quite heavy depending on the number of registered players**
-
-- <server_mspt>
-
-Shows you the delay in milliseconds elapsed per current tick
-
-- <server_has_whitelist>
-
-Returns true if the server has whitelist, otherwise false
-
-- <server_total_chunks>
-
-Returns the total number of chunks loaded
-
-- <server_total_entities>
-
-Returns the total number of loaded entities
-
-- <server_datapack_list>
-
-Returns the list of enabled datapacks
-
-- <server_datapack_count>
-
-Returns the number of enabled datapacks
-```
+  </tr>
+  <tr>
+    <td><code>&lt;server_mspt&gt;</code></td>
+    <td>Shows you the delay in milliseconds elapsed per current tick</td>
+  </tr>
+  <tr>
+    <td><code>&lt;server_has_whitelist&gt;</code></td>
+    <td>Returns true if the server has whitelist, otherwise false</td>
+  </tr>
+  <tr>
+    <td><code>&lt;server_total_chunks&gt;</code></td>
+    <td>Returns the total number of chunks loaded</td>
+  </tr>
+  <tr>
+    <td><code>&lt;server_total_entities&gt;</code></td>
+    <td>Returns the total number of loaded entities</td>
+  </tr>
+  <tr>
+    <td><code>&lt;server_datapack_list&gt;</code></td>
+    <td>Returns the list of enabled datapacks</td>
+  </tr>
+  <tr>
+    <td><code>&lt;server_datapack_count&gt;</code></td>
+    <td>Returns the number of enabled datapacks</td>
+  </tr>
+</table>
 
 ## [Player](https://github.com/MiniPlaceholders/Player-Expansion)
 
@@ -440,41 +443,29 @@ Returns the number of enabled datapacks
 [Wiki](https://github.com/MiniPlaceholders/Player-Expansion)
 
 #### Velocity Placeholders
+
 ```
-- <player_name>
-
-- <player_client>
-
-- <player_ping>
-
-- <player_locale>
-
-- <player_current_server>
-
-- <player_mods>
-
-- <player_tab_header>
-
-- <player_tab_footer>
+<player_name>
+<player_client>
+<player_ping>
+<player_locale>
+<player_current_server>
+<player_mods>
+<player_tab_header>
+<player_tab_footer>
 ```
 
 #### Paper, Fabric, Sponge Placeholders
+
 ```
-- <player_name>
-
-- <player_displayname>
-
-- <player_ping>
-
-- <player_client>
-
-- <player_world>
-
-- <player_team>
-
-- <player_tab_header>
-
-- <player_tab_footer>
+<player_name>
+<player_displayname>
+<player_ping>
+<player_client>
+<player_world>
+<player_team>
+<player_tab_header>
+<player_tab_footer>
 ```
 
 ## [PremiumVanish](https://modrinth.com/plugin/premiumvanish-expansion)
@@ -493,7 +484,6 @@ Returns the number of enabled datapacks
 
 ```
 <proxyconnection_player_count>
-
 <proxyconnection_player_count:(server)>
 ```
 
@@ -513,25 +503,17 @@ Returns the number of enabled datapacks
 
 ## [SkinsRestorer](https://modrinth.com/plugin/skinsrestorer)
 
-
 :::note[Built-in expansion]
 :::
 
 ```
 <skinsrestorer_skin_name_or_empty>
-
 <skinsrestorer_skin_name_or_player_name>
-
 <skinsrestorer_texture_url_or_empty>
-
 <skinsrestorer_texture_url_or_steve>
-
 <skinsrestorer_texture_url_or_alex>
-
 <skinsrestorer_texture_id_or_empty>
-
 <skinsrestorer_texture_id_or_steve>
-
 <skinsrestorer_texture_id_or_alex>
 ```
 
@@ -539,11 +521,8 @@ Returns the number of enabled datapacks
 
 ```
 <simplyrank_code_color>
-
 <simplyrank_prefix>
-
 <simplyrank_primary_rank>
-
 ```
 
 ## Spark
@@ -568,15 +547,40 @@ Returns the number of enabled datapacks
 :::note[Built-in expansion]
 :::
 
-```
-<supermines_rank> -- return the rank
-<supermines_rank:PLAYER> -- return the rank of the player
-<supermines_mine_resettime:MINE> -- return the remaining reset time of the mine
-<supermines_mine_blocksbroken:MINE> -- return the broken blocks amount (will be 0 when reset)
-<supermines_mine_blockspercent:MINE> -- return the rercentage of remaining blocks to total number of blocks
-<supermines_mine_minedpercent:MINE> -- return the rercentage of broken blocks to total number of blocks
-<supermines_mine_totalblocks:MINE> -- return the total blocks of the mine
-```
+<table>
+  <tr>
+    <th>Placeholder</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><code>&lt;supermines_rank&gt;</code></td>
+    <td>Return the rank</td>
+  </tr>
+  <tr>
+    <td><code>&lt;supermines_rank:[player]&gt;</code></td>
+    <td>Return the rank of the player</td>
+  </tr>
+  <tr>
+    <td><code>&lt;supermines_mine_resettime:[mine]&gt;</code></td>
+    <td>Return the remaining reset time of the mine</td>
+  </tr>
+  <tr>
+    <td><code>&lt;supermines_mine_blocksbroken:[mine]&gt;</code></td>
+    <td>Return the broken blocks amount (will be 0 when reset)</td>
+  </tr>
+  <tr>
+    <td><code>&lt;supermines_mine_blockspercent:[mine]&gt;</code></td>
+    <td>Return the percentage of remaining blocks to total number of blocks</td>
+  </tr>
+  <tr>
+    <td><code>&lt;supermines_mine_minedpercent:[mine]&gt;</code></td>
+    <td>Return the percentage of broken blocks to total number of blocks</td>
+  </tr>
+  <tr>
+    <td><code>&lt;supermines_mine_totalblocks:[mine]&gt;</code></td>
+    <td>Return the total blocks of the mine</td>
+  </tr>
+</table>
 
 ## [tags](https://hangar.papermc.io/broccoli/tags)
 
@@ -585,11 +589,16 @@ Returns the number of enabled datapacks
 
 [Wiki](https://hangar.papermc.io/broccoli/tags)
 
-```
-<tags_current>
-
-Displays the current player tag
-```
+<table>
+  <tr>
+    <th>Placeholder</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><code>&lt;tags_current&gt;</code></td>
+    <td>Displays the current player tag</td>
+  </tr>
+</table>
 
 ## [Treasury](https://hangar.papermc.io/ArcanePlugins/Treasury)
 
@@ -608,7 +617,7 @@ Displays the current player tag
 :::
 
 ```
-- <unemoji_emoji:[id]>
+<unemoji_emoji:[id]>
 ```
 
 ## Vault
@@ -628,7 +637,6 @@ Displays the current player tag
 [Wiki](https://github.com/MiniPlaceholders/ViaVersion-Expansion)
 
 ```
-- <viaversion_player_protocol_version>
-
-- <viaversion_player_protocol_id>
+<viaversion_player_protocol_version>
+<viaversion_player_protocol_id>
 ```
