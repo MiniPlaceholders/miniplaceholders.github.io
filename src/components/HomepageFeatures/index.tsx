@@ -11,22 +11,30 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'MiniMessage-based',
+    Svg: "null",//require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Easily create component-based expansions with the MiniMessage API.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Compatibility',
+    Svg: "null",//require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Support for all popular platforms such as Paper, Velocity, Fabric, Sponge, and (Neo)Forge (via Sponge)
+      </>
+    ),
+  },
+  {
+    title: 'Join the modern era',
+    Svg: "null",//require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    description: (
+      <>
+        MiniPlaceholders is always up to date to support the latest features of Minecraft
+        and each platform, so you'll always be at the “cutting edge.”
       </>
     ),
   },
