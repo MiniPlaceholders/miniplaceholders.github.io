@@ -121,7 +121,7 @@ MiniPlaceholders v3 is about to be released, and several of the expansions shown
 ```
 
 
-## [Bending]((https://modrinth.com/plugin/bending))
+## [Bending](https://modrinth.com/plugin/bending)
 
 :::note[Built-in expansion]
 :::
