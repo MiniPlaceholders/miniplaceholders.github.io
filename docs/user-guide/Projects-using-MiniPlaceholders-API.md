@@ -36,6 +36,7 @@ In these plugins/mods you can use MiniPlaceholders placeholders in all your mess
 * ### [message](https://hangar.papermc.io/OskarsMC-Plugins/message)
 * ### [miniannouncer](https://github.com/devblook/miniannouncer/tree/feature/message-handler)
 * ### [MiniCommands](https://github.com/BlockhostOfficial/MiniCommands)
+* ### [MiniMOTD](https://github.com/jpenilla/MiniMOTD)
 * ### [MoreFishRemake](https://github.com/NamiUni/MoreFishRemake-WIP)
 * ### [mServerLinks](https://github.com/powercasgamer/mServerLinks)
 * ### [NetworkJoinMessages](https://www.spigotmc.org/resources/networkjoinmessages-bungeecord-velocity-wide-join-leave-and-switch-messages.118643/)
