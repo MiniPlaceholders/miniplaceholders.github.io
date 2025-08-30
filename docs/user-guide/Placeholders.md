@@ -387,8 +387,11 @@ Its operation would be similar to running the `/papi parse me (placeholders)` co
 
 #### Relational
 
-> [!NOTE]  
-> This type of placeholder is not supported by TextPlaceholderAPI, so it will only be available in Paper and Velocity
+:::note  
+
+This type of placeholder is not supported by TextPlaceholderAPI, so it will only be available in Paper and Velocity
+
+:::
 
 - `<placeholder-adapter_relational:(placeholder)>`
 Velocity:
