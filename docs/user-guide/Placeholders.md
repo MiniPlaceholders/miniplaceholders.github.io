@@ -5,7 +5,7 @@ sidebar_position: 2
 
 :::info
 
-MiniPlaceholders v3 was recently released, and several of the expansions shown here have not yet been updated to this version. Please be patient, as they will be updated over the coming days.
+MiniPlaceholders v3 was recently released, and many of the expansions shown here have not yet been updated to this version. Please be patient, as they will be updated over the coming days.
 
 :::
 
@@ -419,22 +419,22 @@ For example:
     <th>Description</th>
   </tr>
   <tr>
-    <td><code>&lt;proxy_online_players:(server)&gt;</code></td>
+    <td><code>&lt;platforminfo_online_players:(server)&gt;</code></td>
     <td>
       Returns the number of connected users.
       Optionally accepts a server value to show the number of connected users on that server
     </td>
   </tr>
   <tr>
-    <td><code>&lt;proxy_server_count&gt;</code></td>
+    <td><code>&lt;platforminfo_server_count&gt;</code></td>
     <td>Returns the number of registered servers</td>
   </tr>
   <tr>
-    <td><code>&lt;proxy_is_player_online:[player]&gt;</code></td>
+    <td><code>&lt;platforminfo_is_player_online:[player]&gt;</code></td>
     <td>Returns true if the player is connected, otherwise false</td>
   </tr>
   <tr>
-    <td><code>&lt;proxy_version&gt;</code></td>
+    <td><code>&lt;platforminfo_version&gt;</code></td>
     <td>Return version of Velocity</td>
   </tr>
 </table>
@@ -447,23 +447,23 @@ For example:
     <th>Description</th>
   </tr>
   <tr>
-    <td><code>&lt;server_name&gt;</code></td>
+    <td><code>&lt;platforminfo_name&gt;</code></td>
     <td>Shows you the name of the server</td>
   </tr>
   <tr>
-    <td><code>&lt;server_version&gt;</code></td>
+    <td><code>&lt;platforminfo_version&gt;</code></td>
     <td>Shows you the server version</td>
   </tr>
   <tr>
-    <td><code>&lt;server_online&gt;</code></td>
+    <td><code>&lt;platforminfo_online&gt;</code></td>
     <td>Shows you the number of online users</td>
   </tr>
   <tr>
-    <td><code>&lt;server_max_players&gt;</code></td>
+    <td><code>&lt;platforminfo_max_players&gt;</code></td>
     <td>Shows you the maximum number of users that can enter the server</td>
   </tr>
   <tr>
-    <td><code>&lt;server_unique_joins&gt;</code></td>
+    <td><code>&lt;platforminfo_unique_joins&gt;</code></td>
     <td>
       Shows you the number of users who have ever logged in to the server
 
@@ -472,28 +472,24 @@ For example:
 
   </tr>
   <tr>
-    <td><code>&lt;server_mspt&gt;</code></td>
-    <td>Shows you the delay in milliseconds elapsed per current tick</td>
-  </tr>
-  <tr>
-    <td><code>&lt;server_has_whitelist&gt;</code></td>
+    <td><code>&lt;platforminfo_has_whitelist&gt;</code></td>
     <td>Returns true if the server has whitelist, otherwise false</td>
   </tr>
   <tr>
-    <td><code>&lt;server_total_chunks&gt;</code></td>
-    <td>Returns the total number of chunks loaded</td>
+    <td><code>&lt;platforminfo_total_chunks&gt;</code></td>
+    <td>Returns the total number of chunks loaded | Not Implemented in Sponge yet</td>
   </tr>
   <tr>
-    <td><code>&lt;server_total_entities&gt;</code></td>
+    <td><code>&lt;platforminfo_total_entities&gt;</code></td>
     <td>Returns the total number of loaded entities</td>
   </tr>
   <tr>
-    <td><code>&lt;server_datapack_list&gt;</code></td>
-    <td>Returns the list of enabled datapacks</td>
+    <td><code>&lt;platforminfo_datapack_list&gt;</code></td>
+    <td>Returns the list of enabled datapacks | Not Implemented in Sponge yet</td>
   </tr>
   <tr>
-    <td><code>&lt;server_datapack_count&gt;</code></td>
-    <td>Returns the number of enabled datapacks</td>
+    <td><code>&lt;platforminfo_datapack_count&gt;</code></td>
+    <td>Returns the number of enabled datapacks | Not Implemented in Sponge yet</td>
   </tr>
 </table>
 
