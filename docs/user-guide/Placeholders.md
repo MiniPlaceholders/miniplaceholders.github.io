@@ -52,6 +52,7 @@ MiniPlaceholders v3 was recently released, and many of the expansions shown here
 - K
 - L
   - [LiteEco](#liteeco)
+  - [LibertyBans](#libertybans)
   - [LibsDisguise](#libsdisguises)
   - [LuckPerms](#luckperms)
 - M
@@ -305,6 +306,32 @@ MiniPlaceholders v3 was recently released, and many of the expansions shown here
 :::
 
 [Placeholders Wiki](https://github.com/EncryptSL/LiteEco/wiki/Placeholders)
+
+## [LibertyBans](https://github.com/A248/LibertyBans)
+
+[Expansion Download](https://github.com/MiniPlaceholders/LibertyBans-Expansion)
+
+### Audience Placeholders
+
+`<libertybans_is_muted>`
+
+`<libertybans_is_warned>`
+
+### Global Placeholders
+
+`<libertybans_is_player_muted:[ip/player/uuid]:[uuid,player name,or ip]>`
+
+`<libertybans_is_player_banned:[ip/player/uuid]:[uuid,player name,or ip]>`
+
+`<libertybans_has_been_kicked:[ip/player/uuid]:[uuid,player name,or ip]>`
+
+`<libertybans_has_been_muted:[ip/player/uuid]:[uuid,player name,or ip]>`
+
+`<libertybans_has_been_banned:[ip/player/uuid]:[uuid,player name,or ip]>`
+
+`<libertybans_total_active_bans>`
+
+`<libertybans_total_active_mutes>`
 
 ## [LibsDisguises](https://github.com/fabianmakila/LibsDisguises-Expansion)
 
