@@ -1,4 +1,5 @@
 import type {ReactNode} from 'react';
+import {useColorMode} from '@docusaurus/theme-common';
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
@@ -21,7 +22,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Compatibility',
-    Svg: require('@site/static/img/SupportedPlatforms.svg').default,
+    Svg: null, // Dynamically set based on color mode
     description: (
       <>
         Support for all popular platforms such as Paper, Velocity, Fabric, Sponge, and (Neo)Forge (via Sponge)
@@ -30,7 +31,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Join the modern era',
-    Svg: "null",//require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: null,
     description: (
       <>
         MiniPlaceholders is always up to date to support the latest features of Minecraft
@@ -40,15 +41,23 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature(props: FeatureItem) {
+  const {colorMode} = useColorMode();
+  let SvgToRender = props.Svg;
+  if (props.title === 'Compatibility') {
+    SvgToRender = colorMode === 'dark'
+      ? require('@site/static/img/SupportedPlatforms.svg').default
+      : require('@site/static/img/SupportedPlatformsLight.svg').default;
+  }
+  
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        {SvgToRender && <SvgToRender className={styles.featureSvg} role="img" />}
       </div>
       <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
+        <Heading as="h3">{props.title}</Heading>
+        <p>{props.description}</p>
       </div>
     </div>
   );
