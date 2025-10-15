@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'MiniPlaceholders',
   tagline: 'MiniMessage Component-based Placeholders API for Minecraft Platforms.',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/MiniPlaceholdersLogoMin.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -124,7 +124,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © 2022 - ${new Date().getFullYear()} MiniPlaceholders, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © 2022 - ${new Date().getFullYear()} MiniPlaceholders, Org. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
