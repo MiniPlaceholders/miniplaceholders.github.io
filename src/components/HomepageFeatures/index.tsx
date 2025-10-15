@@ -12,7 +12,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'MiniMessage-based',
-    Svg: "null",//require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/KyoriLogo.svg').default,
     description: (
       <>
         Easily create component-based expansions with the MiniMessage API.
@@ -21,7 +21,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Compatibility',
-    Svg: "null",//require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/SupportedPlatforms.svg').default,
     description: (
       <>
         Support for all popular platforms such as Paper, Velocity, Fabric, Sponge, and (Neo)Forge (via Sponge)
