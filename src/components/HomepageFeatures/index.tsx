@@ -31,7 +31,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Join the modern era',
-    Svg: null,
+    Svg: require('@site/static/img/MiniPlaceholdersLogoMinTransparent.svg').default,
     description: (
       <>
         MiniPlaceholders is always up to date to support the latest features of Minecraft
@@ -49,7 +49,6 @@ function Feature(props: FeatureItem) {
       ? require('@site/static/img/SupportedPlatforms.svg').default
       : require('@site/static/img/SupportedPlatformsLight.svg').default;
   }
-  
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
