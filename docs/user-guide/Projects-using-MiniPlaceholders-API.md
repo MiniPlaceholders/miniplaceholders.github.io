@@ -51,6 +51,7 @@ In these plugins/mods you can use MiniPlaceholders placeholders in all your mess
 * ### [SkiesGuis](https://modrinth.com/mod/skiesguis)
 * ### [SkiesKits](https://modrinth.com/mod/skieskits)
 * ### [SlimeRanks](https://modrinth.com/plugin/slimeranks)
+* ### [SuperMines](https://hangar.papermc.io/lijinhong11/SuperMines)
 * ### [TDeathMessages](https://github.com/Saturn745/TDeathMessages)
 * ### [TeamChat](https://modrinth.com/plugin/teamchat)
 * ### [Treasury](https://github.com/ArcanePlugins/Treasury/)
