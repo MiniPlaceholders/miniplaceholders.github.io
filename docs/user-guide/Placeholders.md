@@ -305,7 +305,7 @@ MiniPlaceholders v3 was recently released, and many of the expansions shown here
 :::note[Built-in expansion]
 :::
 
-[Placeholders Wiki](https://github.com/EncryptSL/LiteEco/wiki/Placeholders)
+[Placeholders Wiki](https://liteeco.github.io/docs/user-guide/placeholders)
 
 ## [LibertyBans](https://github.com/A248/LibertyBans)
 
