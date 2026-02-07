@@ -650,12 +650,16 @@ For example:
     <th>Description</th>
   </tr>
   <tr>
-    <td><code>&lt;supermines_rank&gt;</code></td>
-    <td>Return the rank</td>
+    <td><code>&lt;supermines_hasrank:rank:(player)&gt;</code></td>
+    <td>Return whether the player has the rank</td>
   </tr>
   <tr>
-    <td><code>&lt;supermines_rank:[player]&gt;</code></td>
-    <td>Return the rank of the player</td>
+    <td><code>&lt;supermines_bestrank:(player)&gt;</code></td>
+    <td>Return the most valued rank of the player</td>
+  </tr>
+  <tr>
+    <td><code>&lt;supermines_biggestranklevel:(player)&gt;</code></td>
+    <td>Return the most valued rank's level of the player</td>
   </tr>
   <tr>
     <td><code>&lt;supermines_mine_resettime:[mine]&gt;</code></td>
@@ -663,7 +667,7 @@ For example:
   </tr>
   <tr>
     <td><code>&lt;supermines_mine_blocksbroken:[mine]&gt;</code></td>
-    <td>Return the broken blocks amount (will be 0 when reset)</td>
+    <td>Return the broken blocks amount (will be 0 when the mine reset)</td>
   </tr>
   <tr>
     <td><code>&lt;supermines_mine_blockspercent:[mine]&gt;</code></td>
