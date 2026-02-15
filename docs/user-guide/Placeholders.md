@@ -90,6 +90,7 @@ MiniPlaceholders v3 was recently released, and many of the expansions shown here
 - X
 - Y
 - Z
+  - [zHomes](#zhomes)
 
 ## [AldrTeams](https://modrinth.com/plugin/aldrteams)
 
@@ -746,4 +747,57 @@ For example:
 ```
 <viaversion_player_protocol_version>
 <viaversion_player_protocol_id>
+```
+
+## [zHomes](https://modrinth.com/plugin/zhomes)
+
+:::note[Built-in expansion]
+:::
+
+[Wiki](https://docs.yleoft.me/zhomes/hooks/miniplaceholders)
+
+### Global Placeholders
+
+```
+<zhomes_version>
+```
+
+### Audience Placeholders
+
+```
+<zhomes_set>
+<zhomes_numberofhomes>
+<zhomes_limit>
+<zhomes_max>
+<zhomes_homes>
+<zhomes_set_max>
+<zhomes_numberofhomes_limit>
+<zhomes_has_home:[home name]>
+<zhomes_home:[index]>
+<zhomes_home_world:[index]>
+<zhomes_home_x:[index]:(format)>
+<zhomes_home_y:[index]:(format)>
+<zhomes_home_z:[index]:(format)>
+<zhomes_home_pitch:[index]:(format)>
+<zhomes_home_yaw:[index]:(format)>
+```
+
+### Player-Targeted Placeholders
+
+```
+<zhomes_p_set:[player]>
+<zhomes_p_numberofhomes:[player]>
+<zhomes_p_limit:[player]>
+<zhomes_p_max:[player]>
+<zhomes_p_homes:[player]>
+<zhomes_p_set_max:[player]>
+<zhomes_p_numberofhomes_limit:[player]>
+<zhomes_p_has_home:[player]:[home name]>
+<zhomes_p_home:[player]:[index]>
+<zhomes_p_home_world:[player]:[index]>
+<zhomes_p_home_x:[player]:[index]:(format)>
+<zhomes_p_home_y:[player]:[index]:(format)>
+<zhomes_p_home_z:[player]:[index]:(format)>
+<zhomes_p_home_pitch:[player]:[index]:(format)>
+<zhomes_p_home_yaw:[player]:[index]:(format)>
 ```

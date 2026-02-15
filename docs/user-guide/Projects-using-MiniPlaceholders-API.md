@@ -67,6 +67,7 @@ In these plugins/mods you can use MiniPlaceholders placeholders in all your mess
 * ### [VServerInfo](https://modrinth.com/plugin/vserverinfo)
 * ### [WebhookLogger](https://modrinth.com/plugin/webhooklogger)
 * ### [ZAutoBroadcast](https://modrinth.com/plugin/zautobroadcast)
+* ### [zHomes](https://modrinth.com/plugin/zhomes)
 * ### [zHub](https://github.com/MizuleDevelopmentORG/zHub)
 
 ## Libraries with MiniPlaceholders support
