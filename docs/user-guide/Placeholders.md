@@ -3,9 +3,9 @@ sidebar_label: 'Placeholders'
 sidebar_position: 2
 ---
 
-:::info
+:::note
 
-MiniPlaceholders v3 was recently released, and many of the expansions shown here have not yet been updated to this version. Please be patient, as they will be updated over the coming days.
+If you are a project developer or simply want to document the placeholders for a project, make a [pull request](https://github.com/MiniPlaceholders/miniplaceholders.github.io/pulls) to this [list](https://github.com/MiniPlaceholders/miniplaceholders.github.io/blob/main/docs/user-guide/Placeholders.md)!
 
 :::
 

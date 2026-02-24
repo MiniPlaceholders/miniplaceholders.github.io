@@ -4,6 +4,12 @@ sidebar_label: 'Compatible Projects'
 sidebar_position: 4
 ---
 
+:::note
+
+If you want to add your project to this list, please submit a [pull request](https://github.com/MiniPlaceholders/miniplaceholders.github.io/blob/main/docs/user-guide/Projects-using-MiniPlaceholders-API.md)!
+
+:::
+
 ## List of Projects supporting MiniPlaceholders
 In these plugins/mods you can use MiniPlaceholders placeholders in all your messages
 
