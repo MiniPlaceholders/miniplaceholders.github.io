@@ -127,6 +127,27 @@ const config: Config = {
             },
           ],
         },
+        {
+          title: 'Downloads',
+          items: [
+            {
+              label: 'Modrinth',
+              href: 'https://modrinth.com/plugin/miniplaceholders',
+            },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/MiniPlaceholders/MiniPlaceholders/releases',
+            },
+            {
+              label: 'Ore',
+              href: 'https://ore.spongepowered.org/MiniPlaceholders/MiniPlaceholders',
+            },
+            {
+              label: 'Latest Development Build',
+              href: 'https://ci.codemc.io/job/MiniPlaceholders/job/MiniPlaceholders/',
+            }
+          ],
+        },
       ],
       copyright: `Copyright © 2022 - ${new Date().getFullYear()} MiniPlaceholders, Org. Built with Docusaurus.`,
     },
