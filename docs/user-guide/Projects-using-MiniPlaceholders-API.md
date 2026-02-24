@@ -77,3 +77,4 @@ You can use these libraries in combination with the MiniPlaceholders API
 * ### [ColorParser](https://github.com/milkdrinkers/ColorParser)
 * ### [DaisyLib](https://github.com/FireML-Dev/DaisyLib)
 * ### [ProtocolSidebar](https://github.com/CatCoderr/ProtocolSidebar)
+* ### [zAPI](https://github.com/yL3oft/zAPI)
