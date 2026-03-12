@@ -50,6 +50,7 @@ In these plugins/mods you can use MiniPlaceholders placeholders in all your mess
 * ### [NetworkJoinMessages](https://www.spigotmc.org/resources/networkjoinmessages-bungeecord-velocity-wide-join-leave-and-switch-messages.118643/)
 * ### [NoPluginsCommand](https://github.com/SimplyVanilla/NoPluginsCommand)
 * ### [PAPISigns](https://github.com/ArcanePlugins/PAPISigns)
+* ### [Pictogram](https://builtbybit.com/resources/pictogram.96531)
 * ### [PistonChat](https://github.com/AlexProgrammerDE/PistonChat)
 * ### [PistonServerLinks](https://modrinth.com/plugin/pistonserverlinks)
 * ### [ReallyFakePlayers](https://dev.bukkit.org/projects/really-fake-players)
