@@ -16,11 +16,11 @@ If your project does not fully depend on Adventure-Platform-Fabric or MiniPlaceh
 
 ```kotlin
 dependencies {
-  compileOnly("io.github.miniplaceholders:miniplaceholders-api:3.0.0")
-  modImplementation("net.kyori:adventure-platform-fabric:6.6.0")
+  compileOnly("io.github.miniplaceholders:miniplaceholders-api:3.2.0")
+  modImplementation("net.kyori:adventure-platform-fabric:6.9.0")
   // In case your mod optionally depends on MiniPlaceholders and does not necessarily require this dependency,
   // you can avoid including it in your final jar by removing this line
-  include("net.kyori:adventure-platform-fabric:5.8.0")
+  include("net.kyori:adventure-platform-fabric:6.9.0")
 }
 
 ```

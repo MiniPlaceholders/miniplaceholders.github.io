@@ -92,7 +92,7 @@ You can register the expansion for use in MiniPlaceholders main class static met
 
 You need to create the expansion first. This expansion can be used [Standalone](https://github.com/4drian3d/MiniPlaceholders/wiki/Integration#single-expansion-usage)
 
-```ts
+```JAVA
 // Expansion creation
 Expansion expansion = builder.build();
 

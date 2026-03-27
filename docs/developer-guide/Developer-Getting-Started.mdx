@@ -9,13 +9,13 @@ import TabItem from '@theme/TabItem';
 
 MiniPlaceholders is a plugin and mod that allows you to register global placeholders based on [Adventure Components](https://docs.advntr.dev/text.html) to be used in other plugin/mods instances.
 
-Requires [Paper](https://papermc.io/software/paper) 1.21 and higher, [Velocity](https://papermc.io/software/velocity) 3.3.0 and higher, [Fabric](https://fabricmc.net/) 1.21.1+ or [Sponge](https://spongepowered.org/) API 8+.
+Requires [Paper](https://papermc.io/software/paper) 1.21 and higher, [Velocity](https://papermc.io/software/velocity) 3.3.0 and higher, [Fabric](https://fabricmc.net/) 26.1+ or [Sponge](https://spongepowered.org/) API 12+.
 
 To continue, you first need knowledge of [MiniMessage](https://docs.adventure.kyori.net/minimessage/index.html). To see how to use the MiniMessage API in MiniPlaceholders, [check this section](docs/developer-guide/MiniMessage-API-in-MiniPlaceholders.md).
 
-To use MiniPlaceholders API, you need Java 21 at least
+To use MiniPlaceholders API, you need Java 25 at least
 
-**Remember not to shade or relocate MiniMessage, as the platforms on which MiniPlaceholders run already have MiniMessage built in.** MiniPlaceholders is only compatible with projects using native API, if you use Adventure Platform Bukkit either relocated or integrated, MiniPlaceholders will not be able to work properly
+Unless you are using Minestom, **Remember not to shade or relocate MiniMessage, as the platforms on which MiniPlaceholders run already have MiniMessage built in.** MiniPlaceholders is only compatible with projects using native API, if you use Adventure Platform Bukkit either relocated or integrated, MiniPlaceholders will not be able to work properly
 
 If you want a template to create your next expansion, you can use our template https://github.com/MiniPlaceholders/Template-Expansion
 
@@ -34,7 +34,7 @@ If you want a template to create your next expansion, you can use our template h
       }
 
       dependencies {
-        compileOnly("io.github.miniplaceholders:miniplaceholders-api:3.0.1")
+        compileOnly("io.github.miniplaceholders:miniplaceholders-api:3.2.0")
       }
     ```
   </TabItem>
@@ -43,7 +43,7 @@ If you want a template to create your next expansion, you can use our template h
     <dependency>
       <groupId>io.github.miniplaceholders</groupId>
       <artifactId>miniplaceholders-api</artifactId>
-      <version>3.0.1</version>
+      <version>3.2.0</version>
       <scope>provided</scope>
     </dependency>
 ```
@@ -68,7 +68,7 @@ It can only be used in environments that provide kotlin-stdlib, such as Fabric w
       }
 
       dependencies {
-        compileOnly("io.github.miniplaceholders:miniplaceholders-kotlin-ext:3.0.1")
+        compileOnly("io.github.miniplaceholders:miniplaceholders-kotlin-ext:3.2.0")
       }
     ```
   </TabItem>
@@ -77,7 +77,36 @@ It can only be used in environments that provide kotlin-stdlib, such as Fabric w
     <dependency>
       <groupId>io.github.miniplaceholders</groupId>
       <artifactId>miniplaceholders-kotlin-ext</artifactId>
-      <version>3.0.1</version>
+      <version>3.2.0</version>
+      <scope>provided</scope>
+    </dependency>
+```
+  </TabItem>
+</Tabs>
+
+
+## Minestom ![](https://img.shields.io/maven-central/v/io.github.miniplaceholders/miniplaceholders-minestom?style=flat-square)
+
+Check the [full guide](docs/developer-guide/Minestom-Development.md)
+
+<Tabs groupId="build-system">
+  <TabItem value="gradle" label="Gradle" default>
+    ```kotlin
+      repositories {
+        mavenCentral()
+      }
+
+      dependencies {
+        compileOnly("io.github.miniplaceholders:miniplaceholders-minestom:3.2.0")
+      }
+    ```
+  </TabItem>
+  <TabItem value="maven" label="Maven">
+    ```xml
+    <dependency>
+      <groupId>io.github.miniplaceholders</groupId>
+      <artifactId>miniplaceholders-minestom</artifactId>
+      <version>3.2.0</version>
       <scope>provided</scope>
     </dependency>
 ```
