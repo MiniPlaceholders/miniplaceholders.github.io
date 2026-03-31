@@ -38,6 +38,7 @@ In these plugins/mods you can use MiniPlaceholders placeholders in all your mess
 * ### [invertoTimer](https://modrinth.com/plugin/invertotimer)
 * ### [JoinProtection](https://modrinth.com/plugin/joinprotection)
 * ### [KickRedirect](https://modrinth.com/plugin/kickredirect)
+* ### [kotonoha](https://github.com/NamiUni/kotonoha)
 * ### [Leaf](https://modrinth.com/plugin/leaf)
 * ### [LogicalChat](https://www.spigotmc.org/resources/logicalchat-1-20x-best-chat-plugin.114302/)
 * ### [LuaLink](https://modrinth.com/plugin/lualink) with its [MiniPlaceholders Addon](https://github.com/LuaLink/LuaLink-MiniPlaceholders)
