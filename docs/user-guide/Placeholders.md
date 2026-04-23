@@ -57,6 +57,7 @@ If you are a project developer or simply want to document the placeholders for a
   - [LuckPerms](#luckperms)
 - M
   - [Maintenance](#maintenance)
+  - [MultiProxySync](#multiproxysync)
 - N
   - [Noble Whitelist](#noble-whitelist)
 - O
@@ -371,6 +372,13 @@ If you want them inserted as strings prior to parsing so they affect the output 
 
 ```
 <maintenance_status>
+```
+## [MultiProxySync](https://github.com/User-Time/MultiProxySync)
+
+:::note[Built-in expansion]
+:::
+```
+<multiproxysync_global_player_count>
 ```
 
 ## Noble Whitelist
