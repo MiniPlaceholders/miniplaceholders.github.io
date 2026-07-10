@@ -53,6 +53,7 @@ In these plugins/mods you can use MiniPlaceholders placeholders in all your mess
 * ### [Pictogram](https://builtbybit.com/resources/pictogram.96531)
 * ### [PistonChat](https://github.com/AlexProgrammerDE/PistonChat)
 * ### [PistonServerLinks](https://modrinth.com/plugin/pistonserverlinks)
+* ### [PlayerList](https://modrinth.com/plugin/playerlist)
 * ### [ReallyFakePlayers](https://dev.bukkit.org/projects/really-fake-players)
 * ### [Runway](https://github.com/xMrAfonso/Runway)
 * ### [SimplyNicks](https://github.com/SimplyVanilla/SimplyNicks)
