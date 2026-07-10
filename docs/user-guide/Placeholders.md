@@ -23,6 +23,7 @@ If you are a project developer or simply want to document the placeholders for a
   - [AldrTeams](#aldrteams)
   - [AuthMeVelocity](#authmevelocity)
   - [AFKPlus](#afkplus)
+  - [AFKSystem](#afksystem)
 - B
   - [Bending](#bending)
   - [beanstalk](#beanstalk)
@@ -59,6 +60,7 @@ If you are a project developer or simply want to document the placeholders for a
   - [Maintenance](#maintenance)
   - [MultiProxySync](#multiproxysync)
 - N
+  - [NightAccelerator](#nightaccelerator)
   - [Noble Whitelist](#noble-whitelist)
 - O
 - P
@@ -121,6 +123,15 @@ If you are a project developer or simply want to document the placeholders for a
 <afkplus_afktime>
 <afkplus_totaltimeafk>
 <afkplus_playersafk>
+```
+
+## [AFKSystem](https://modrinth.com/plugin/afksystem)
+```
+<afksystem_afk>
+<afksystem_afk:yesno>
+<afksystem_afk:truefalse>
+<afksystem_indicator>
+<afksystem_list>
 ```
 
 ## [beanstalk](https://modrinth.com/plugin/beanstalk/)
@@ -379,6 +390,13 @@ If you want them inserted as strings prior to parsing so they affect the output 
 :::
 ```
 <multiproxysync_global_player_count>
+```
+
+## [NightAccelerator](https://modrinth.com/plugin/nightaccelerator)
+```
+<nightaccelerator_sleeping>
+<nightaccelerator_max>
+<nightaccelerator_time>
 ```
 
 ## Noble Whitelist
