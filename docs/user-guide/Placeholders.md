@@ -32,6 +32,8 @@ If you are a project developer or simply want to document the placeholders for a
   - [Carbon](#carbon)
   - [ChatRegulator](#chatregulator)
   - [Chunky](#chunky)
+  - [Claimo](#claimo)
+  - [ClaimoYoutubeAddon](#claimoyoutubeaddon)
   - [ClientCatcher](#clientcatcher)
   - [creative-faces](#creative-faces)
   - [Cobblemon](#cobblemon)
@@ -85,10 +87,12 @@ If you are a project developer or simply want to document the placeholders for a
   - [Treasury](#treasury)
 - U
   - [unemojis](#unemojis)
+  - [unplugged-afk-paper](#unplugged-afk-paper)
   - [UltimateMobCoins](#ultimatemobcoins)
 - V
   - [Vault](#vault)
   - [ViaVersion](#viaversion)
+  - [Voxen](#voxen)
 - W
 - X
 - Y
@@ -214,6 +218,26 @@ If you are a project developer or simply want to document the placeholders for a
 <chunky_task_pregen_x:<world>>
 <chunky_task_pregen_z:<world>>
 ```
+
+## [Claimo](https://modrinth.com/plugin/claimo)
+
+[Wiki](https://claimo.vao.zone/integrations/placeholderapi/#the-same-placeholders-in-miniplaceholders)
+
+## [ClaimoYoutubeAddon](https://github.com/Naimadx123/ClaimoYouTubeAddon)
+
+:::note[Built-in expansion]
+:::
+
+```
+<claimoyt_linked>
+<claimoyt_verified>
+<claimoyt_handle>
+<claimoyt_channel_id>
+<claimoyt_channel_url>
+<claimoyt_status>
+<claimoyt_verifier>
+```
+
 
 ## [ClientCatcher](https://modrinth.com/plugin/clientcatcher)
 
@@ -748,6 +772,19 @@ For example:
 <unemoji_emoji:[id]>
 ```
 
+## [unplugged-afk-paper](https://github.com/devpikachu/unplugged-afk-paper)
+
+```
+<unplugged-afk_is_unplugged>
+<unplugged-afk_duration_mins>
+<unplugged-afk_reason>
+<unplugged-afk_started>
+<unplugged-afk_expires>
+<unplugged-afk_remaining_mins>
+<unplugged-afk_is_fake>
+<unplugged-afk_count>
+```
+
 ## [Vault](https://www.spigotmc.org/resources/vault.34315/)
 
 [Expansion Download](https://github.com/MiniPlaceholders/Vault-Expansion)
@@ -774,6 +811,10 @@ For example:
 <viaversion_player_protocol_version>
 <viaversion_player_protocol_id>
 ```
+
+## [Voxen](https://github.com/Naimadx123/Voxen)
+
+[Wiki](https://voxen.vao.zone/integrations/miniplaceholders/)
 
 ## [zHomes](https://modrinth.com/plugin/zhomes)
 

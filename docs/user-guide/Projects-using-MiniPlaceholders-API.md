@@ -89,5 +89,6 @@ You can use these libraries in combination with the MiniPlaceholders API
 * ### [DaisyLib](https://github.com/FireML-Dev/DaisyLib)
 * ### [kotonoha](https://github.com/NamiUni/kotonoha)
 * ### [MagicUtils](https://github.com/THEROER/MagicUtils)
+* ### [mscript](https://github.com/saicone/mscript)
 * ### [ProtocolSidebar](https://github.com/CatCoderr/ProtocolSidebar)
 * ### [zAPI](https://github.com/yL3oft/zAPI)
